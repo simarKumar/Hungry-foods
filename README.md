@@ -1,69 +1,53 @@
-# 🍔 HungryFood – Food Ordering Website
+# Food Ordering Website
+As the name says it all, it a simple full stack project which is used for ordering food from your favourite restaurant. It is a user friendly and responsive website. 
 
-HungryFood is a full-stack food ordering web application that allows users to browse restaurants, explore menus, add items to their cart, and place online orders. Built using Node.js, Express, MySQL, and EJS, the project includes admin and user roles, authentication, and basic restaurant management.
+## Features :
+- The project has two interface i.e. an user interface and an admin interface.
+- At user-end he/she can ony order food and set the quantity as per there requirment.
+- At user-end he/she can also view there profile details and order history.
+- At user-end he/she can change their basic contact details and as well as there password. 
+- At admins-end he/she can perform two task : 
+    - Add new food to the food menu.
+    - Change the price of cuisine as per inflation rate.
+    - View and dispatch order of the customers.
+- Admin can also verify the working of the website from his own end.
+- Use cookies for login into the account.
 
----
+## Build With :
+<ul>
+    <li><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/" target="_blank">CSS</a></li>
+    <li><a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a></li>
+    <li><a href="https://www.w3schools.com/bootstrap5/index.php" target="_blank">Bootstrap</a></li>
+    <li><a href="https://expressjs.com/" target="_blank">ExpressJS</a></li>
+    <li><a href="https://www.w3schools.com/mysql/default.asp" target="_blank">MySQL</a></li>
+</ul>
 
-## 🚀 Features
+## Install and Run :
+- Clone the repository or download the zip folder.
+- Extract the zip folder.
+- Import the data from the ``` FoodOrderingWebsite.sql ``` file to your ``` MySQL``` Database.
+- Install NodeJS in your system.
+- Go to the folder where you have extracted or cloned the project.
+- Open command prompt or terminal having the same location where your project is.
+- Type ``` npm install ``` in your command prompt or terminal.
+- Now to run the project on your server type ``` npm start ``` .
 
-- 🔐 User authentication (login/register)
-- 🏪 Restaurant listing and menu browsing
-- 🛒 Add to cart and place orders
-- 📦 Admin panel for restaurant and menu management
-- 📊 Order history and user profile
-- 🎨 Responsive UI using HTML/CSS and EJS templating
+## Screenshot :
+Here are some of the screenshot of Food Ordering Website.
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: HTML, CSS, EJS (Embedded JavaScript Templates)
-- **Backend**: Node.js, Express.js
-- **Database**: MySQL
-- **Authentication**: express-session, bcrypt
-- **Other Tools**: XAMPP, VS Code
-
----
-
-## 📂 Project Structure
-food-ordering-website/ │ ├── app.js # Main Express app ├── bin/www # Server startup script ├── routes/ # Route handlers ├── views/ # EJS templates ├── public/ # Static assets (CSS, JS, images) ├── models/ # Database queries └── config/ # DB configuration
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-``bash
-git clone https://github.com/your-username/food-ordering-website.git
-cd food-ordering-website
-
-2. Install Dependencies
-npm install
-
-3. Setup MySQL Database
-Start MySQL using XAMPP
-
-Create a database (e.g., hungryfood)
-
-Import the provided SQL file (if any)
-
-4. Configure Database
-Edit config/db.js or app.js to match your MySQL credentials:
-
-js
-host: 'localhost',
-user: 'root',
-password: '',
-database: 'hungryfood'
-5. Start the Server
-
-npm start
-Then open http://localhost:3000 in your browser.
-
-📸 Screenshots
-![hungryfoods](https://github.com/user-attachments/assets/ef3413e6-f676-40a6-8ff1-cf62516f980b)
-
-
-📃 License
-This project is for educational purposes only. Feel free to fork and customize it!
-
-🙋‍♀️ Author
-Simar Kumar  – Final Year B.E. CSE Student Chitkara University
+1. Landing Page :<br><br> <img src="screenshot/Landing Page.png"><br><br>
+2. SignUp  Page :<br><br> <img src="screenshot/Sign Up Page.png"><br><br>
+3. SignIn Page :<br><br> <img src="screenshot/Sign In Page.png"><br><br>
+4. Home Page : <br><br> <img src="screenshot/Homepage.png"><br><br>
+5. Menu List : <br><br> <img src="screenshot/Menu Cart.png"><br><br>
+6. Cart Page : <br><br> <img src="screenshot/My Cart Page.png"><br><br>
+7. Confirmation Page :<br><br> <img src="screenshot/Order Confirmation Page.png"><br><br>
+8. Details and Order History Page :<br><br> <img src="screenshot/Details and Order History Page.png"><br><br>
+9. Settings Page :<br><br> <img src="screenshot/Settings Page.png"><br><br>
+10. Sign Out Option :<br><br> <img src="screenshot/Sign Out.png"><br><br>
+11. Admin Sign In Page : <br><br> <img src="screenshot/Admin Login Page.png"><br><br>
+12. Admin Welcome Page :<br><br> <img src="screenshot/Admin Welcome Page.png"><br><br>
+13. Admin Adding Food Page :<br><br> <img src="screenshot/Admin Adding Food Page.png"><br><br>
+14. Changing Price of Cuisine :<br><br> <img src="screenshot/Changing Price of Cuisine.png"><br><br>
+14. Admin Order View & Dispatching Page :<br><br> <img src="screenshot/Admin Viewing and Dispatching Order Page.png"><br><br>
